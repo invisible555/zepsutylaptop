@@ -1,0 +1,86 @@
+google api nie wspiera automatycznego dodawania interpunkcji w języku polskim
+pliki mp3
+
+
+correct - 667
+incorrect -316
+errors - 17 ( nie wykryło mowy )
+porównanie bez interpunkcji oraz bez białych znaków
+część zawiera błędy w odmianie słowa typu byłem/byłam lub podobne
+innym błędem jest liczba zapisana cyframi a w transkrypcji słownie, nie zaprogramowałem jeszcze wyjątku dla sprawdzania
+
+213 z 316 zdań jest podobnych w 0.9 według metryki levensteina
+
+odleglosci dla wszystkich 316
+
+odległość levenstein: 5 liczba wystapien: 29
+odległość levenstein: 2 liczba wystapien: 61
+odległość levenstein: 1 liczba wystapien: 65
+odległość levenstein: 38 liczba wystapien: 1
+odległość levenstein: 6 liczba wystapien: 11
+odległość levenstein: 4 liczba wystapien: 33
+odległość levenstein: 11 liczba wystapien: 3
+odległość levenstein: 17 liczba wystapien: 3
+odległość levenstein: 3 liczba wystapien: 45
+odległość levenstein: 10 liczba wystapien: 8
+odległość levenstein: 14 liczba wystapien: 3
+odległość levenstein: 35 liczba wystapien: 1
+odległość levenstein: 12 liczba wystapien: 5
+odległość levenstein: 28 liczba wystapien: 2
+odległość levenstein: 9 liczba wystapien: 7
+odległość levenstein: 27 liczba wystapien: 1
+odległość levenstein: 22 liczba wystapien: 1
+odległość levenstein: 7 liczba wystapien: 18
+odległość levenstein: 8 liczba wystapien: 8
+odległość levenstein: 21 liczba wystapien: 1
+odległość levenstein: 32 liczba wystapien: 1
+odległość levenstein: 29 liczba wystapien: 1
+odległość levenstein: 18 liczba wystapien: 2
+odległość levenstein: 24 liczba wystapien: 1
+odległość levenstein: 23 liczba wystapien: 1
+odległość levenstein: 13 liczba wystapien: 1
+odległość levenstein: 19 liczba wystapien: 2
+
+correct - 241
+incorrect - 742
+errors -17
+najlepsze w przypadku użycia modeli do poprawy interpunkcji dla google api
+
+pliki wav
+
+correct - 671
+incorect - 311
+errors - 18
+
+210 z 311 zdań jest podobnych w 0.9 według metryki levensteina
+
+odległości dla wszystkich 311
+
+odległość levenstein: 5 liczba wystapien: 28
+odległość levenstein: 2 liczba wystapien: 61
+odległość levenstein: 1 liczba wystapien: 63
+odległość levenstein: 38 liczba wystapien: 1
+odległość levenstein: 6 liczba wystapien: 11
+odległość levenstein: 4 liczba wystapien: 32
+odległość levenstein: 11 liczba wystapien: 3
+odległość levenstein: 17 liczba wystapien: 3
+odległość levenstein: 3 liczba wystapien: 45
+odległość levenstein: 10 liczba wystapien: 9
+odległość levenstein: 14 liczba wystapien: 2
+odległość levenstein: 35 liczba wystapien: 1
+odległość levenstein: 12 liczba wystapien: 5
+odległość levenstein: 20 liczba wystapien: 2
+odległość levenstein: 9 liczba wystapien: 6
+odległość levenstein: 22 liczba wystapien: 2
+odległość levenstein: 8 liczba wystapien: 9
+odległość levenstein: 7 liczba wystapien: 18
+odległość levenstein: 43 liczba wystapien: 1
+odległość levenstein: 32 liczba wystapien: 1
+odległość levenstein: 29 liczba wystapien: 1
+odległość levenstein: 18 liczba wystapien: 2
+odległość levenstein: 24 liczba wystapien: 1
+odległość levenstein: 23 liczba wystapien: 1
+odległość levenstein: 13 liczba wystapien: 1
+odległość levenstein: 19 liczba wystapien: 2
+
+
